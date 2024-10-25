@@ -5,15 +5,35 @@ This repo contains an implementation of a multi-agent travel concierge system ev
 See plan ref: https://docs.google.com/document/d/1Djkg-hVUWiGyd-faL7Afj_Lju21aklLe2cXkHPdsdwM/edit?usp=sharing
 
 
-## Types of Agents/Tasks to Complete
+## TODO
 
-- Suggest sights to visit
-- Suggest suitable ways of transportation (flights, trains, etc.)
-- Suggest where to sleep (hotels, AirBnbs, open air, etc.)
-- Review legal limitations
-- Generate a descriptive image
-- Generate the summary of the conversation summarizing the travel plan
-- Interpreting the items to be taken on the trip through a photo and recommending any missing items to the user based on the destination's recommendations.
+### Backend
+
+1. [ ] Flight API tool
+2. [ ] Hotel API tool
+3. [ ] Sightseeing Rec API tool
+
+We've signed up for an org subscription on RapidAPI to access Booking.com API for hotels, flights, car rental, taxi and attraction information. Please reach [@charleneleong-ai]( @charleneleong-ai) for access in Whatsapp if need.
+
+![alt text](docs/rapidapi_booking.png)
+
+### Frontend
+
+1. [ ] Streamlit/Chainlit Frontend to allow user to query and render response
+2. [ ] Ability to toggle between the different frameworks
+
+### Types of Agents/Tasks to Complete
+
+
+| #  | Task                                                                                                     | Autogen | CrewAI  | LlamaIndex | LangChain |
+|----|----------------------------------------------------------------------------------------------------------|---------|---------|------------|-----------|
+| 1  | Suggest sights to visit                                                                                  | [ ]     | [ ]     | [ ]        | [ ]       |
+| 2  | Suggest suitable ways of transportation (flights, trains, etc.)                                          | [ ]     | [ ]     | [ ]        | [ ]       |
+| 3  | Suggest where to sleep (hotels, AirBnbs, open air, etc.)                                                  | [ ]     | [ ]     | [ ]        | [ ]       |
+| 4  | Review legal limitations (visa requirements, local laws, etc.)                                            | [ ]     | [ ]     | [ ]        | [ ]       |
+| 5  | Generate a descriptive image related to the travel plan or destination                                    | [ ]     | [ ]     | [ ]        | [ ]       |
+| 6  | Generate a summary of the conversation, summarizing the travel plan                                       | [ ]     | [ ]     | [ ]        | [ ]       |
+| 7  | Interpret the items to be taken on the trip through a photo and recommend any missing items for the user   | [ ]     | [ ]     | [ ]        | [ ]       |
 
 ## Comparing Constructs
 
@@ -64,6 +84,8 @@ If you want to install only the deps of specific framework
 ```zsh
 make install-llama-index
 ```
+
+Please free to add/modify to the `Makefile` as needed.
 
 **NOTE**: All deps have been grouped in `pyproject.toml`. If packages in `pyproject.toml` are updated, run `make sync` to sync the venv deps.
 
