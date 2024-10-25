@@ -586,17 +586,17 @@ css = ["tinycss2 (>=1.1.0,<1.3)"]
 
 [[package]]
 name = "boto3"
-version = "1.35.48"
+version = "1.35.49"
 description = "The AWS SDK for Python"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "boto3-1.35.48-py3-none-any.whl", hash = "sha256:60889bb6e21f0af662ac9404e00125d3b8a5808f190e89462e5ddf73604adfc1"},
-    {file = "boto3-1.35.48.tar.gz", hash = "sha256:5007a5cdd09e4db9309adf2ee090455a34ae639bd10a68a1fefca72cd77070fc"},
+    {file = "boto3-1.35.49-py3-none-any.whl", hash = "sha256:b660c649a27a6b47a34f6f858f5bd7c3b0a798a16dec8dda7cbebeee80fd1f60"},
+    {file = "boto3-1.35.49.tar.gz", hash = "sha256:ddecb27f5699ca9f97711c52b6c0652c2e63bf6c2bfbc13b819b4f523b4d30ff"},
 ]
 
 [package.dependencies]
-botocore = ">=1.35.48,<1.36.0"
+botocore = ">=1.35.49,<1.36.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.10.0,<0.11.0"
 
@@ -605,13 +605,13 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.35.48"
+version = "1.35.49"
 description = "Low-level, data-driven core of boto 3."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "botocore-1.35.48-py3-none-any.whl", hash = "sha256:34fa25fd717208b05745e60f271a39636108fa87a3512fbca18e7e6f787a3239"},
-    {file = "botocore-1.35.48.tar.gz", hash = "sha256:3e766cc251053c9ef98542fdf225381ed58531769c3811a6282bd7247f7e2bdf"},
+    {file = "botocore-1.35.49-py3-none-any.whl", hash = "sha256:aed4d3643afd702920792b68fbe712a8c3847993820d1048cd238a6469354da1"},
+    {file = "botocore-1.35.49.tar.gz", hash = "sha256:07d0c1325fdbfa49a4a054413dbdeab0a6030449b2aa66099241af2dac48afd8"},
 ]
 
 [package.dependencies]
@@ -2126,13 +2126,13 @@ grpc = ["grpcio (>=1.38.0,<2.0dev)", "grpcio-status (>=1.38.0,<2.0.dev0)"]
 
 [[package]]
 name = "google-cloud-resource-manager"
-version = "1.12.5"
+version = "1.13.0"
 description = "Google Cloud Resource Manager API client library"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "google_cloud_resource_manager-1.12.5-py2.py3-none-any.whl", hash = "sha256:2708a718b45c79464b7b21559c701b5c92e6b0b1ab2146d0a256277a623dc175"},
-    {file = "google_cloud_resource_manager-1.12.5.tar.gz", hash = "sha256:b7af4254401ed4efa3aba3a929cb3ddb803fa6baf91a78485e45583597de5891"},
+    {file = "google_cloud_resource_manager-1.13.0-py2.py3-none-any.whl", hash = "sha256:33beb4528c2b7aee7a97ed843710581a7b4a27f3dd1fa41a0bf3359b3d68853f"},
+    {file = "google_cloud_resource_manager-1.13.0.tar.gz", hash = "sha256:ae4bf69443f14b37007d4d84150115b0942e8b01650fd7a1fc6ff4dc1760e5c4"},
 ]
 
 [package.dependencies]
@@ -2873,13 +2873,13 @@ test = ["flaky", "ipyparallel", "pre-commit", "pytest (>=7.0)", "pytest-asyncio 
 
 [[package]]
 name = "ipython"
-version = "8.28.0"
+version = "8.29.0"
 description = "IPython: Productive Interactive Computing"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "ipython-8.28.0-py3-none-any.whl", hash = "sha256:530ef1e7bb693724d3cdc37287c80b07ad9b25986c007a53aa1857272dac3f35"},
-    {file = "ipython-8.28.0.tar.gz", hash = "sha256:0d0d15ca1e01faeb868ef56bc7ee5a0de5bd66885735682e8a322ae289a13d1a"},
+    {file = "ipython-8.29.0-py3-none-any.whl", hash = "sha256:0188a1bd83267192123ccea7f4a8ed0a78910535dbaa3f37671dca76ebd429c8"},
+    {file = "ipython-8.29.0.tar.gz", hash = "sha256:40b60e15b22591450eef73e40a027cf77bd652e757523eebc5bd7c7c498290eb"},
 ]
 
 [package.dependencies]
@@ -3665,13 +3665,13 @@ tenacity = ">=8.1.0,<8.4.0 || >8.4.0,<10"
 
 [[package]]
 name = "langchain-core"
-version = "0.3.12"
+version = "0.3.13"
 description = "Building applications with LLMs through composability"
 optional = false
 python-versions = "<4.0,>=3.9"
 files = [
-    {file = "langchain_core-0.3.12-py3-none-any.whl", hash = "sha256:46050d34f5fa36dc57dca971c6a26f505643dd05ee0492c7ac286d0a78a82037"},
-    {file = "langchain_core-0.3.12.tar.gz", hash = "sha256:98a3c078e375786aa84939bfd1111263af2f3bc402bbe2cac9fa18a387459cf2"},
+    {file = "langchain_core-0.3.13-py3-none-any.whl", hash = "sha256:e79cfac046cab293c02047f081741f4a433ca5aa54a3973e179eaef147cdfba4"},
+    {file = "langchain_core-0.3.13.tar.gz", hash = "sha256:d3a6c838284ff73705dd0f24a36cd8b2fa34a348e6b357e6b3d58199ab063cde"},
 ]
 
 [package.dependencies]
@@ -3791,13 +3791,13 @@ msgpack = ">=1.1.0,<2.0.0"
 
 [[package]]
 name = "langgraph-sdk"
-version = "0.1.33"
+version = "0.1.34"
 description = "SDK for interacting with LangGraph API"
 optional = false
 python-versions = "<4.0.0,>=3.9.0"
 files = [
-    {file = "langgraph_sdk-0.1.33-py3-none-any.whl", hash = "sha256:fe2311ebfe231219a7ad06c3dad4860a9e2917e780aaa2f228d1a9f5653da686"},
-    {file = "langgraph_sdk-0.1.33.tar.gz", hash = "sha256:addffc33554b690e81525c12fe9b2656cc7b740678e4724bc706d1ca13b3de93"},
+    {file = "langgraph_sdk-0.1.34-py3-none-any.whl", hash = "sha256:3c44967382e073055c1731d9dde004a49ca04a063183747031b8a8286bad0b19"},
+    {file = "langgraph_sdk-0.1.34.tar.gz", hash = "sha256:ee76507018414a08bcf63e0de916e956340ee2e9b5c60d5252d1b2b1fe47c5f3"},
 ]
 
 [package.dependencies]
@@ -3903,13 +3903,13 @@ wrapt = "*"
 
 [[package]]
 name = "llama-index-llms-anthropic"
-version = "0.3.7"
+version = "0.3.8"
 description = "llama-index llms anthropic integration"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "llama_index_llms_anthropic-0.3.7-py3-none-any.whl", hash = "sha256:851e0a169974fc1992b0f9ade7f14df4c076d58e96588ea7e7d0ed694847886a"},
-    {file = "llama_index_llms_anthropic-0.3.7.tar.gz", hash = "sha256:c3c6d0b4fdf19b885d0030a4629dd9522e5566e45f8441f9fccee6f20157188e"},
+    {file = "llama_index_llms_anthropic-0.3.8-py3-none-any.whl", hash = "sha256:e8d33b6318c9922dc2b2d26cdd8b1296a0c612783aecb432461bc7916bda5acc"},
+    {file = "llama_index_llms_anthropic-0.3.8.tar.gz", hash = "sha256:f519cda37e01adeceeaddc3acbe174b4932d90c5e42e85b97a481c6434d3f985"},
 ]
 
 [package.dependencies]
@@ -4186,13 +4186,13 @@ files = [
 
 [[package]]
 name = "mem0ai"
-version = "0.1.23"
+version = "0.1.24"
 description = "Long-term memory for AI Agents"
 optional = false
 python-versions = "<4.0,>=3.9"
 files = [
-    {file = "mem0ai-0.1.23-py3-none-any.whl", hash = "sha256:25c0a4a3c5804c3f5b83a5e83a741461e342b572136e5e91a3868f860cc04209"},
-    {file = "mem0ai-0.1.23.tar.gz", hash = "sha256:71473dd8488788403e1c65ca29f1ac2096832e421805d42338241c37d9ff20ef"},
+    {file = "mem0ai-0.1.24-py3-none-any.whl", hash = "sha256:083f47279aa1bf20d5ff7d6ba39341d0c6c46a83c2bdd711d8c89c5a4976cba4"},
+    {file = "mem0ai-0.1.24.tar.gz", hash = "sha256:8e3952f6e156cbff4f3a7c2eb84d6a1c117abef3604d9ffd2ef0c1a453726fc0"},
 ]
 
 [package.dependencies]
@@ -7738,29 +7738,29 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "uv"
-version = "0.4.26"
+version = "0.4.27"
 description = "An extremely fast Python package and project manager, written in Rust."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "uv-0.4.26-py3-none-linux_armv6l.whl", hash = "sha256:d1ca5183afab454f28573a286811019b3552625af2cd1cd3996049d3bbfdb1ca"},
-    {file = "uv-0.4.26-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:391a6f5e31b212cb72a8f460493bbdf4088e66049666ad064ac8530230031289"},
-    {file = "uv-0.4.26-py3-none-macosx_11_0_arm64.whl", hash = "sha256:acaa25b304db6f1e8064d3280532ecb80a58346e37f4199659269847848c4da0"},
-    {file = "uv-0.4.26-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl", hash = "sha256:2ddb60d508b668b8da055651b30ff56c1efb79d57b064c218a7622b5c74b2af8"},
-    {file = "uv-0.4.26-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:6f66f11e088d231b7e305f089dc949b0e6b1d65e0a877b50ba5c3ae26e151144"},
-    {file = "uv-0.4.26-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:e086ebe200e9718e9622af405d45caad9d84b60824306fcb220335fe6fc90966"},
-    {file = "uv-0.4.26-py3-none-manylinux_2_17_ppc64.manylinux2014_ppc64.whl", hash = "sha256:41f9876c22ad5b4518bffe9e50ec7169e242b64f139cdcaf42a76f70a9bd5c78"},
-    {file = "uv-0.4.26-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:6091075420eda571b0377d351c393b096514cb036a3199e033e003edaa0ff880"},
-    {file = "uv-0.4.26-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:1214caacc6b9f9c72749634c7a82a5d93123a44b70a1fa6a9d13993c126ca33e"},
-    {file = "uv-0.4.26-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9a63a6fe6f249a9fff72328204c3e6b457aae5914590e6881b9b39dcc72d24df"},
-    {file = "uv-0.4.26-py3-none-manylinux_2_28_aarch64.whl", hash = "sha256:c4c69532cb4d0c1e160883142b8bf0133a5a67e9aed5148e13743ae55c2dfc03"},
-    {file = "uv-0.4.26-py3-none-musllinux_1_1_armv7l.whl", hash = "sha256:9560c2eb234ea92276bbc647854d4a9e75556981c1193c3cc59f6613f7d177f2"},
-    {file = "uv-0.4.26-py3-none-musllinux_1_1_i686.whl", hash = "sha256:a41bdd09b9a3ddc8f459c73e924485e1caae43e43305cedb65f5feac05cf184a"},
-    {file = "uv-0.4.26-py3-none-musllinux_1_1_ppc64le.whl", hash = "sha256:23cee82020b9e973a5feba81c2cf359a5a09020216d98534926f45ee7b74521d"},
-    {file = "uv-0.4.26-py3-none-musllinux_1_1_x86_64.whl", hash = "sha256:468f806e841229c0bd6e1cffaaffc064720704623890cee15b42b877cef748c5"},
-    {file = "uv-0.4.26-py3-none-win32.whl", hash = "sha256:70a108399d6c9e3d1f4a0f105d6d016f97f292dbb6c724e1ed2e6dc9f6872c79"},
-    {file = "uv-0.4.26-py3-none-win_amd64.whl", hash = "sha256:e826b544020ef407387ed734a89850cac011ee4b5daf94b4f616b71eff2c8a94"},
-    {file = "uv-0.4.26.tar.gz", hash = "sha256:e9f45d8765a037a13ddedebb9e36fdcf06b7957654cfa8055d84f19eba12957e"},
+    {file = "uv-0.4.27-py3-none-linux_armv6l.whl", hash = "sha256:ae4f45a0640de23c880bd5bdb27b1d3a059b45c9f73c2f7d53e392664efeca10"},
+    {file = "uv-0.4.27-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:b9e9b8b4062388df4c7a5d1e6c692dc8929242f883e1509010efb2b766ac4edd"},
+    {file = "uv-0.4.27-py3-none-macosx_11_0_arm64.whl", hash = "sha256:07d693092ad1f2536fec59e1ad5170fab10a214e9d2e39f9cf385cccbf426aa7"},
+    {file = "uv-0.4.27-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl", hash = "sha256:2035efeb39d8d86355d9002e129a76a032a54b47b1332c6952225f48aa9b583c"},
+    {file = "uv-0.4.27-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:6c5782274a8d3075f4bf82e90c90b0a960abc11424ab353dc559e9329b479681"},
+    {file = "uv-0.4.27-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:6d335e40658a6c23554683410e710e5f54374fec20642e459771f50c8736d600"},
+    {file = "uv-0.4.27-py3-none-manylinux_2_17_ppc64.manylinux2014_ppc64.whl", hash = "sha256:f552967f4b392f880a1a50d3f57b9372a9666da274ea7826ee14e024ba035f4e"},
+    {file = "uv-0.4.27-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:3dd79e9392af6f41c470f9a95a2f3f8e73cde585eecb2df721f0716cd6134893"},
+    {file = "uv-0.4.27-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:0bae39264d575d16d5bb3b40699396afb2b27f987d7d7cfe8f336c24d26eda87"},
+    {file = "uv-0.4.27-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b7a858209dfaab2527c547836cf823aef5cc1e051c5b15df4ba445a71b252df8"},
+    {file = "uv-0.4.27-py3-none-manylinux_2_28_aarch64.whl", hash = "sha256:b92728ba102ac7284f560c144507961be5aca5263d7a0d70a6896bba7660271c"},
+    {file = "uv-0.4.27-py3-none-musllinux_1_1_armv7l.whl", hash = "sha256:bb5ced184be4e7611d983462a9f31a24a2e66de60f688ded6a8c36dc701a58ef"},
+    {file = "uv-0.4.27-py3-none-musllinux_1_1_i686.whl", hash = "sha256:c0a5a40f23b61b2c693f6fa6f08b920c7d8b9058ce7ca20f18856844d2f11b2c"},
+    {file = "uv-0.4.27-py3-none-musllinux_1_1_ppc64le.whl", hash = "sha256:b05165b0b24573c509286b87825c619658162079e2d3b20fea01d0dd9f444238"},
+    {file = "uv-0.4.27-py3-none-musllinux_1_1_x86_64.whl", hash = "sha256:d1731252da1a71a9f38e5864eb037401340a17eab519ad32e9a9f8fd54b7ada9"},
+    {file = "uv-0.4.27-py3-none-win32.whl", hash = "sha256:0a7d8041f80bf59fac1d3a630ad5ed9d91008c85edc03e318e3016122235c568"},
+    {file = "uv-0.4.27-py3-none-win_amd64.whl", hash = "sha256:4d249ca5e5444de4dd4984627bef6f077ffdb45c3ad6b27413ddfb1146daf79b"},
+    {file = "uv-0.4.27.tar.gz", hash = "sha256:c13eea45257362ecfa2a2b31de9b62fbd0542e211a573562d98ab7c8fc50d8fc"},
 ]
 
 [[package]]
